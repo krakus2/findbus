@@ -8,14 +8,14 @@
    "description": "",
    "main": "index.js",
    "scripts": {
-      "start": "node index.js"
+      "start": "node index.js",
+      "heroku-prebuild": "npm install && npm install --prefix client",
+      "heroku-postbuild": "npm run build --prefix client"
    },
    "author": "",
    "license": "ISC",
    "dependencies": {
       "axios": "^0.18.0",
-      "express": "^4.17.0",
-      "heroku-prebuild": "npm install --prefix client",
-      "heroku-postbuild": "npm run build --prefix client"
+      "express": "^4.17.0"
    }
 }
