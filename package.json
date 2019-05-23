@@ -1,5 +1,9 @@
 {
    "name": "api-um_react",
+   "engines": {
+      "node": "8.16.0",
+      "npm": "6.4.1"
+   },
    "version": "1.0.0",
    "description": "",
    "main": "index.js",
