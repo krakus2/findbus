@@ -41,7 +41,7 @@
       "react": "^16.4.1",
       "react-addons-css-transition-group": "^15.6.2",
       "react-bootstrap": "^0.32.1",
-      "react-dev-utils": "^5.0.1",
+      "react-dev-utils": "^11.0.4",
       "react-dom": "^16.4.1",
       "react-google-maps": "^9.4.5",
       "react-responsive": "^5.0.0",
